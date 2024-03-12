@@ -1726,8 +1726,8 @@ div.fb {
     }
 
     .denumire.x1 {
-        font-size: 45px;
-        margin-bottom: -10px;
+        font-size: 40px;
+        margin-bottom: -25px;
     }
 
     .prezentare-img-1,
@@ -1756,6 +1756,25 @@ div.fb {
 
     .paragraf-prezentare {
         font-size: 16px;
+        margin-bottom: -20px;
+    }
+
+    .paragraf-vanzari {
+        font-size: 17px;
+    }
+
+    .denumire.v1 {
+        margin-bottom: -10px;
+    }
+
+    .tags.v1 {
+        margin-top: -10px;
+    }
+
+    .paragraf-galerie {
+        font-size: 17px;
+        margin-bottom: -10px;
+        margin-top: 10px;
     }
 
 }
