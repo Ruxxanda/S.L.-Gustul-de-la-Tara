@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #ffce99;
+    background-color: #ffffff;
     margin: 0;
     font-family: sans-serif;
     line-height: 1.5;
@@ -23,7 +23,7 @@ body {
     width: 100%;
     z-index: 1000;
     color: #ffffff;
-    background-color: #000;
+    background-color: #ff77008e;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +63,8 @@ ul li {
 }
 
 .linc-pagina:hover {
-    color: #FF8A1E;
+    color: #ff7b00;
+    border-radius: 10px;
 }
 
 .search {
@@ -173,7 +174,7 @@ ul li {
 .search-bar {
     width: 250px;
     max-width: 700px;
-    background: rgba(255,255,255,0.2);
+    background: #ffffffe6;
     display: flex;
     align-items: center;
     border-radius: 60px;
@@ -189,7 +190,7 @@ ul li {
     outline: none;
     padding: 15px 1.25rem;
     font-size: 1.25rem;
-    color: #cac7ff;
+    color: #000000;
     margin-left: 10px;
 }
 
@@ -271,7 +272,7 @@ ul li {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: -10px;
+    margin-bottom: 5px;
 }
 
 .tags span a {
@@ -326,51 +327,6 @@ section {
     margin-top: 6px;
 }
 
-.logo-1 {
-    width: 1.43888rem;
-    height: 2rem;
-    flex-shrink: 0;
-    margin-bottom: -16px;
-    margin-left: -2px;
-}
-
-.logo-2 {
-    width: 1.62656rem;
-    height: 1.625rem;
-    flex-shrink: 0;
-    margin-bottom: -14px;
-}
-
-.logo-3 {
-    width: 1.62656rem;
-    height: 1.625rem;
-    flex-shrink: 0;
-    margin-bottom: -13px;
-}
-
-.logo-4 {
-    width: 1.62656rem;
-    height: 1.625rem;
-    flex-shrink: 0;
-    margin-bottom: -14px;
-    margin-right: -1px;
-}
-
-.logo-5 {
-    width: 1.62656rem;
-    height: 1.625rem;
-    flex-shrink: 0;
-    margin-bottom: -15px;
-}
-
-.logo-6 {
-    width: 1.62656rem;
-    height: 1.625rem;
-    flex-shrink: 0;
-    margin-bottom: -15px;
-}
-
-
 #ani-container {
     font-size: 1.25rem;
 }
@@ -410,7 +366,7 @@ section {
 
 footer {
     min-height: 80px;
-    background-color: #000000;
+    background-color: #ff7700;
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 10px;
@@ -441,7 +397,205 @@ footer {
     color: #ff0004;
 }
 
+.iconite > i,
+.despre > i, 
+#revizuire > i{
+    font-size: 34px;
+    position: absolute;
+}
+.i1 {
+    color: #ff7b00;
+    top: 450px;
+    left: 100px;
+    animation: icon-anim 3s infinite;
+}
+.i2 {
+    color: #ff7b00;
+    left: 25%;
+    animation: icon-anim 2.5s infinite;
+}
 
+.i3 {
+    color: #ff7b00;
+    bottom: 28px;
+    left: 300px;
+    animation: icon-anim 4s 1.5s infinite;
+}
+
+.i4 {
+    color: #ff7b00;
+    bottom: 30%;
+    right: 8%;
+    animation: icon-anim 2.2s 0.3s infinite;
+}
+
+.i5 {
+    color: #ff7b00;
+    top: 770px;
+    right: 6%;
+    animation: icon-anim 2.7s 1s infinite;
+}
+
+.i6 {
+    color: #ff7b00;
+    top: 410px;
+    right: 400px;
+    animation: icon-anim 3s 0.7s infinite;
+}
+
+.i7 {
+    color: #ff7b00;
+    top: 770px;
+    left: 5%;
+    animation: icon-anim 3.5s 0.2s infinite;
+}
+
+.i8 {
+    color: #ff7b00;
+    top: 800px;
+    left: 300px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i9 {
+    color: #ff7b00;
+    bottom: 2%;
+    right: 250px;
+    animation: icon-anim 2s 0.1s infinite;
+}
+
+.i10 {
+    color: #ff7b00;
+    top: 900px;
+    left: 100px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i11 {
+    color: #ff7b00;
+    top: 980px;
+    left: 400px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i12 {
+    color: #ff7b00;
+    top: 1200px;
+    left: 150px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i13 {
+    color: #ff7b00;
+    top: 1400px;
+    left: 350px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i14 {
+    color: #ff7b00;
+    top: 1000px;
+    right: 400px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i15 {
+    color: #ff7b00;
+    top: 900px;
+    right: 100px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i16 {
+    color: #ff7b00;
+    top: 1150px;
+    right: 100px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i17 {
+    color: #ff7b00;
+    top: 1300px;
+    right: 400px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i18 {
+    color: #ff7b00;
+    top: 1400px;
+    right: 100px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i19 {
+    color: #ff7b00;
+    top: 2000px;
+    left: 70px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i20 {
+    color: #ff7b00;
+    top: 1800px;
+    left: 140px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i21 {
+    color: #ff7b00;
+    top: 1600px;
+    left: 70px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i22 {
+    color: #ff7b00;
+    top: 1550px;
+    left: 400px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i23 {
+    color: #ff7b00;
+    top: 1540px;
+    left: 880px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i24 {
+    color: #ff7b00;
+    top: 1590px;
+    right: 260px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i25 {
+    color: #ff7b00;
+    top: 1670px;
+    right: 30px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i26 {
+    color: #ff7b00;
+    top: 1830px;
+    right: 150px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+.i27 {
+    color: #ff7b00;
+    top: 2000px;
+    right: 50px;
+    animation: icon-anim 3s 1.2s infinite;
+}
+
+@keyframes icon-anim {
+    0% { transform: scale(1) rotate(0deg); }
+    40% { transform: scale(1.15) rotate(30deg); }
+    70% { transform: rotate(-30deg); }
+    100% { transform: scale(1) rotate(0deg); }
+}
 
 /* stiluri la prezentare generala */
 
@@ -483,12 +637,11 @@ footer {
 
 .subtitlu {
     color: #f96502;
-    
     text-align: center;
     font-family: Inter;
-    font-size: 3rem;
-    font-style: italic;
-    font-weight: 300;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
     line-height: normal;
     margin-bottom: 5px;
 }
@@ -552,7 +705,7 @@ footer {
     color: #FFFfff;
     text-align: center;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -793,8 +946,8 @@ footer {
 .text-titlu {
     text-align: center;
     color: #f96502;
-    font-size: 3rem;
-    padding-bottom: 2rem;
+    font-size: 30px;
+    padding-bottom: 1rem;
     text-transform: uppercase;
     font-family: "Libre Baskerville", serif;
     font-weight: 700;
@@ -818,13 +971,12 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 2.5rem;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 230px;
 }
 
 .vanzare .box-conteiner .box {
     padding: 1.5rem;
-    background: #efebeb;
+    background: #ff77006f;
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
@@ -944,7 +1096,7 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-bottom: -30px;
+    margin-bottom: -10px;
 }
 
 .tags-vanzari span a {
@@ -955,6 +1107,7 @@ footer {
     border-radius: 0.313rem;
     color: #000000;
 }
+
 
 /* sfarsit stiluri la vanzari */
 
@@ -986,7 +1139,6 @@ footer {
 .conteiner-galerie .img-conteiner .img {
     width: 150px;
     height: 200px;
-    box-shadow: rgba(172, 159, 159, 0.748) 20px 3px 38px;
     overflow: hidden;
 }
 
@@ -1001,7 +1153,7 @@ footer {
    
 }
 
-.conteiner-galerie .img-conteiner .img:hover img {
+.conteiner-galerie .img-conteiner .img img:hover {
     transform: scale(1.1);
 }
 
@@ -1093,6 +1245,17 @@ footer {
     color: #000000;
 }
 
+.img-conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /* sfarsit stilulri la galerie */
 
 /* stiluri la contacte */
@@ -1134,7 +1297,6 @@ footer {
 .text-contacte-2 {
     width: 15.5rem;
     height: 17.8rem;
-    
     color: #000000;
     text-align: center;
     font-family: "Iceberg";
@@ -1148,6 +1310,7 @@ footer {
     border-radius: 10px;
     padding: 40px;
     box-shadow: rgba(172, 153, 153, 0.748) 20px 3px 38px;
+    background-color: #ffedc9;
 }
 
 .imagine-contacte {
@@ -1168,8 +1331,6 @@ footer {
 }
 
 .info-contacte {
-   
-    
     padding: 25px 40px;
     margin-bottom: 1.25rem;
     background-color: #ff7200;
@@ -1208,12 +1369,20 @@ footer {
 
 footer {
     min-height: 80px;
-    background-color: #000000;
+    background-color: #cc5f00;
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 10px;
     padding-bottom: 10px;
+}
 
+.f1, .f2, .f3, .f4 {
+    margin-top: 0;
+    height: 370px;
+}
+
+.pr, .tags.v1, .ga, .co {
+    margin-bottom: -50px;
 }
 
 .paragraf-contacte {
@@ -1253,6 +1422,7 @@ section.contactare {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background-color: #ffedc9;
     box-shadow: #a9a0a0bf 20px 3px 38px;
 }
 
@@ -1364,6 +1534,7 @@ div.fb {
     width: 880px;
     margin-bottom: 40px;
     box-shadow: #a9a0a0bf 20px 3px 38px;
+    background-color: #ffedc9;
 }
 
 /*sfarsit stiluri la contacte  */
@@ -1482,7 +1653,7 @@ div.fb {
 
     .paragraf {
         width: 30rem;
-        margin-bottom: 70px;
+        margin-bottom: 100px;
         padding: 20px 50px;
 
     }
@@ -1566,7 +1737,7 @@ div.fb {
     }
 
     .paragraf-galerie {
-        width: 24rem;
+        width: 25rem;
         margin-bottom: 14px;
     }
 
@@ -1756,7 +1927,7 @@ div.fb {
 
     .paragraf-prezentare {
         font-size: 16px;
-        margin-bottom: -10px;
+        margin-bottom: 5px;
     }
 
     .paragraf-vanzari {
@@ -1764,7 +1935,7 @@ div.fb {
     }
 
     .denumire.v1 {
-        margin-bottom: 0;
+        margin-bottom: -10px;
     }
 
     .tags.v1 {
@@ -1773,8 +1944,18 @@ div.fb {
 
     .paragraf-galerie {
         font-size: 17px;
-        margin-bottom: -10px;
+        margin-bottom: -1px;
         margin-top: 10px;
+    }
+
+    .bara {
+        background-color: #aa4f00;
+    }
+
+    .iconite > i,
+    .despre > i, 
+    #revizuire > i {
+        display: none;
     }
 
 }
